@@ -1,0 +1,30 @@
+.title{
+    margin-top: 0px;
+}
+.container1{
+    background-color: #ddd;
+}
+.button-color{
+    background-color: #7bba27 !important;
+    color:#0000 !important
+
+}
+button.btn.btn-success.btn.btn-secondary.disabled {
+    background-color: #7bba27 !important;
+    color:#0000 !important
+
+}
+.customcardimg{
+    width: 95%;
+    margin: 2.5%;
+    background-color: #dddddd;
+    height: 37vh;    
+}
+.cardTitleColor{
+    color:#5f65a3;
+    white-space: nowrap;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+}
