@@ -5,8 +5,6 @@ import classes from './home.module.css';
 import { Row, Col, Container, Card, CardImg, CardTitle, CardText, CardBody, Button } from 'reactstrap';
 
 
-
-
 function HomePage(props) {
     const FilterRow = (props) => {
         let col = [];
@@ -37,6 +35,7 @@ function HomePage(props) {
     const [spaceData, setSpaceData] = useState([]);
     const [activeButton, setActive] =useState(2006)
 
+    
     const getSpaceData = (url) => {
         fetch(url ? url : 'https://api.spaceXdata.com/v3/launches?limit=100')
             .then(res => res.json())
