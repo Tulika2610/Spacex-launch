@@ -5,12 +5,45 @@
     background-color: #ddd;
 }
 .button-color{
-    background-color: #7cb520 !important;
+    background-color: #7bba27 !important;
     color:#0000 !important
 
 }
-button.btn.btn-success.btn.btn-secondary.disabled {
-    background-color: #7cb520 !important;
-    color:#0000 !important
+.filte_btn  ,.home_filte_btn__3bXk7 {
+    background-color: #7bba27 !important;
+    color:#000 !important;
+    border:none !important;
 
+}
+
+.customcardimg{
+    width: 90%;
+    margin: 5%;
+    background-color: #dddddd;
+    min-height: 321px;
+
+}
+.cardTitleColor{
+    color:#5f65a3;
+    white-space: nowrap;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+}
+.fliter_parent{
+    display: inline-flex !important;
+    width: 50% !important;
+    justify-content: center !important;
+}
+.fliter_parent.col-sm-2 {
+    width: 50% !important;
+    text-align: center !important;
+}
+@media only screen  and (max-width:767px){
+
+    .fliter_parent.col-sm-2 {
+        width: 50% !important;
+        text-align: center !important;
+    }
 }
